@@ -4,4 +4,4 @@ ADD . /go/src/hello
 RUN go install hello
 ENTRYPOINT /go/bin/hello
 
-EXPOSE 8080
+EXPOSE 8081
